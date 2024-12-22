@@ -2,7 +2,7 @@ import streamlit as st
 from rdkit import Chem
 from rdkit.Chem import SanitizeMol
 
-st.title("Comparación de Moléculas SMILES")
+st.title("Compara dos códigos SMILES")
 st.write("Autor: Jesus Alvarado-Huayhuaz")
 st.markdown("Ingrese dos SMILES para verificar si corresponden a la misma molécula.")
 
