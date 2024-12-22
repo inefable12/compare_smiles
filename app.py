@@ -3,11 +3,12 @@ from rdkit import Chem
 from rdkit.Chem import SanitizeMol
 
 st.title("Comparación de Moléculas SMILES")
+st.write("Autor: Jesus Alvarado-Huayhuaz")
 st.markdown("Ingrese dos SMILES para verificar si corresponden a la misma molécula.")
 
 # Entradas de SMILES
-smiles1 = st.text_input("Ingrese el primer SMILES:", value="CCO")
-smiles2 = st.text_input("Ingrese el segundo SMILES:", value="OCC")
+smiles1 = st.text_input("Ingrese el primer SMILES:", value="C1=CN=C(C=N1)C(=O)N")
+smiles2 = st.text_input("Ingrese el segundo SMILES:", value="O=C(N)c1nccnc1")
 
 # Función para sanitizar y convertir SMILES a Mol
 def sanitize_and_convert(smiles):
