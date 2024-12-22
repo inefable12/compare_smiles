@@ -39,10 +39,10 @@ if st.button("Comparar moléculas"):
         st.error("Una o ambas entradas no son SMILES válidos. Verifique los datos ingresados.")
 
 # Notas adicionales
-st.markdown(
-    """
-    **Notas:**
-    - La sanitización corrige errores comunes en los SMILES ingresados.
-    - La equivalencia molecular se determina considerando la estructura química.
-    """
-)
+#st.markdown(
+#    """
+#    **Notas:**
+#    - La sanitización corrige errores comunes en los SMILES ingresados.
+#    - La equivalencia molecular se determina considerando la estructura química.
+#    """
+#)
